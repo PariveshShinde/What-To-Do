@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+
+<body>
+    <h1 class="mylistsheading">My Lists</h1>
+<p></p>
+
+<%lists.forEach(function(list){%>
+    <div class="listnamediv">
+        <h3 class="listname"><%=list.name%></h3>
+        <form class= "listnamedivform" action="/mylists" method="post">
+        <button class="listnamedivbtn" type="submit" name="list" value="<%= list.name %>">Open List</button>
+        </form>
+    </div>
+<%})%>
+</body>
+
+<footer>
+    <%- include('partials/footer') %>
+</footer>
+
+
+

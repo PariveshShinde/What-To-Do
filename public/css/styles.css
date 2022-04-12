@@ -1,0 +1,239 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 5px;
+
+}
+.navbar-nav  li a:hover {
+    color:#209c68 !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #1abc9c;
+    padding-top: 38px;
+}
+
+.footer p {
+	font-size: 15px;
+  color: #fff;
+}
+
+
+.box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 10px;   
+  }
+
+.listbox{
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.listname{
+    display: inline-block;
+}
+
+
+
+.listnamediv{
+
+    width: 100%;
+    height:65px ;
+    border: 3px solid;
+    border-radius: 14px;
+    border-color: #1abc9c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.listnamediv:hover{
+    border-color:darkgreen;
+}
+
+.listnamedivform{
+
+  float: right ;
+  display: inline-block;
+    margin-top: 15px;
+    width: 20%;
+    height: 60%;
+}
+.listnamedivbtn{
+    
+    border-radius: 14px;
+    margin:0;
+    width: 100%;
+    background-color: #1abc9c;
+    border: none;
+    height: 100%;
+    color: white;
+}
+
+  #heading {
+    background-color: #A683E3;
+    text-align: center;
+  }
+
+  h1.newlistheading {
+    color: #1abc9c;
+    padding: 10px;
+  }
+  h1.mylistsheading{
+      color:#209c68;
+      padding: 10px;
+  }
+
+  .todoimg{
+      margin-top: 2.25rem;
+      width: 15%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+  }
+
+  .homebtn{
+      
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+    margin-top:20px;
+    border-radius: 12px;
+    width:100%;
+  }
+
+  .newlistbtn{
+      
+    background-color: #1abc9c;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 16px;
+    margin-top:20px;
+    border-radius: 12px;
+    width:100%;
+  }
+  
+  
+  .homebtn:hover{
+    background-color: #209c68;
+  }
+  .newlistbtn:hover{
+    background-color: #209c68;
+  }
+  .listnamedivbtn:hover {
+    background-color: #209c68;
+    
+  }
+
+  .newlistbody{
+      background-color:white ;
+  }
+
+
+  .listbody {
+    background-color: #f8f9fa;
+    background-image: -webkit-linear-gradient(65deg, #1abc9c 50%, #f8f9fa 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+  }
+  
+  h1 {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #heading {
+    background-color: #1abc9c;
+    text-align: center;
+  }
+  
+  .listitem {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cfd1d2;
+  }
+  
+  
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  
+  form.item {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .additembtn {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }
+  
+  input[type="text"].listinputtext{
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+  }
+  
+  input[type="text"].listinputtext:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #209c68;
+  }
+  
+  ::placeholder {
+    color: grey;
+    opacity: 1;
+  }
+  
